@@ -64,6 +64,7 @@ function Todo() {
     <div>
       <div className="todoContainer">
         <div className="navbar"><h1 style={{fontSize:"55px" }}>Todos List </h1></div>
+        <div>You can add the today todo and unuse todo remove</div>
        <div className="boxmain">
         <TodoInput getTodo={getTodo} />
         {show ? (
